@@ -1,0 +1,7 @@
+.hero-banner{
+    position: relative;
+    @media (max-width: 767px){
+        height: 40vh;
+        overflow: hidden;
+    }
+}

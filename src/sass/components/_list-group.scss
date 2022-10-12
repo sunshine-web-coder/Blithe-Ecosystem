@@ -1,0 +1,27 @@
+$list-group-border-color: $border-color;
+
+
+
+.integration-icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 25px;
+
+    img{
+        width: var(--img-size, 64px);
+
+        @media (min-width: 991px){
+            --img-size: 80px;
+        }
+    }
+}
+
