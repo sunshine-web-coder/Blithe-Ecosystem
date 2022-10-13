@@ -19,63 +19,63 @@ const Footer = () => {
     menu: [
       {
         name: "Privacy policy",
-        url: "/privacy-policy",
+        path: "/privacy-policy",
       },
       {
         name: "Terms of service",
-        url: "/terms-of-service",
+        path: "/terms-of-service",
       },
       {
         name: "Documentation",
-        url: "/documentation",
+        path: "https://blithe.gitbook.io/blithe-wallet-whitepaper",
       },
       {
         name: "Request form",
-        url: "/request-form",
+        path: "/request-form",
       },
       {
         name: "Disclaimer",
-        url: "/disclaimer",
+        path: "/disclaimer",
       },
       {
         name: "Support",
-        url: "/support",
+        path: "/support",
       },
       {
         name: "Audit",
-        url: "/audit",
+        path: "/audit",
       },
     ],
     social: [
       {
         name: "Twitter",
         icon: socialTwitter,
-        url: "https://twitter.com/BlitheWallet?t=SLPAHTN62XbHX5CWSjk8BQ&s=09",
+        path: "https://twitter.com/BlitheWallet?t=SLPAHTN62XbHX5CWSjk8BQ&s=09",
       },
       {
         name: "Telegram",
         icon: socialTelegram,
-        url: "https://t.me/blithewallet",
+        path: "https://t.me/blithewallet",
       },
       {
         name: "Discord",
         icon: socialDiscord,
-        url: "https://discord.gg/RFcu94Nu",
+        path: "https://discord.gg/RFcu94Nu",
       },
       {
         name: "Youtube",
         icon: socialYoutube,
-        url: "https://youtube.com/channel/UCIEZNs84cnGGwv34wYJQfEw",
+        path: "https://youtube.com/channel/UCIEZNs84cnGGwv34wYJQfEw",
       },
       {
         name: "Instagram",
         icon: socialInstagram,
-        url: "https://www.instagram.com/blithewallet",
+        path: "https://www.instagram.com/blithewallet",
       },
       {
         name: "Medium",
         icon: socialMedium,
-        url: "https://medium.com/@blithewallet",
+        path: "https://medium.com/@blithewallet",
       },
     ],
   };
@@ -121,9 +121,9 @@ const Footer = () => {
                 <ul className="list-inline d-flex flex-wrap gap-2 gap-lg-4">
                   {data.menu.map((item, i) => (
                     <li key={i} className="list-inline-item">
-                      <Link to={item.url} className="link-light">
+                      <a href={item.path} className="link-light">
                         {item.name}{" "}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -142,7 +142,7 @@ const Footer = () => {
               <ul className="list-inline mb-0 d-inline-flex gap-2 gap-lg-3">
                 {data.social.map((item, i) => (
                   <li key={i} className="list-inline-item">
-                    <a target="_blank" href={item.url}>
+                    <a target="_blank" href={item.path}>
                       <img src={item.icon} alt={item.name} />
                     </a>
                   </li>
