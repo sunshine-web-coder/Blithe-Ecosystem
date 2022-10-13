@@ -31,7 +31,7 @@ const Footer = () => {
       },
       {
         name: "Request form",
-        path: "/request-form",
+        path: "/form",
       },
       {
         name: "Disclaimer",
