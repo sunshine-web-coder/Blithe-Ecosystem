@@ -1,0 +1,13 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-brand img{
+    width: 50px;
+}
+.navbar-brand span{
+    font-weight: 700;
+    font-size: 30px;
+    color: #101828;
+}

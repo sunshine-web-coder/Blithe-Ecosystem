@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/blithe-1.svg';
 import {FiMenu} from 'react-icons/fi';
 
 const Header = () => {
@@ -45,6 +45,7 @@ const Header = () => {
         <Container>
             <Navbar.Brand href="/">
                 <img src={logo} alt="theme logo"/>
+                <span>Blithe</span>
             </Navbar.Brand>
             <span className="header-toggler d-lg-none fs-2xl" onClick={() => setIsOpenMobile(!isOpenMobile)}>
                     <FiMenu />
