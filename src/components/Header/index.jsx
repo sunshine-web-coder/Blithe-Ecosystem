@@ -27,7 +27,7 @@ const Header = () => {
             },
             {
                 name: "Documentation",
-                slug: '#Documentation',
+                slug: 'https://blithe.gitbook.io/blithe-wallet-whitepaper',
             },
             {
                 name: "Referral",
