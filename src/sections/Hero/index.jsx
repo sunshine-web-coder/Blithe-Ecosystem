@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import banner from '../../assets/hero-banner.svg';
-import appStore from './assets/app-store.svg';
-import playStore from './assets/play-store.svg';
-import downloadApk from '../../assets/andriodApk.svg';
+import playStore from '../../assets/svgg/gPlay.svg';
+import downloadApk from '../../assets/svgg/andriodApk.svg';
+import appStore from '../../assets/svgg/AppStore.svg';
 
 const Hero = () => {
     const data = {

@@ -22,8 +22,13 @@
     text-align: left;
 }
 
-.list-unstyled ul.firNhnm{
+.list-unstyled ul.firNhnm {
     padding-left: 25px;
+}
+
+.list-inline li {
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .list-inline-item {
