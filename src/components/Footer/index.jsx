@@ -39,7 +39,7 @@ const Footer = () => {
       },
       {
         name: "Support",
-        path: "/support",
+        path: "mailto:support@blithewallet.com",
       },
       {
         name: "Audit",
