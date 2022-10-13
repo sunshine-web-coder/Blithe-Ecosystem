@@ -22,8 +22,8 @@ const Roadmap = () => {
                                 <div className="timeline-list-item content">
                                     <h4 className="text-uppercase mb-4 mb-lg-5 ff-secondary fs-sm fs-md-lg fw-bold text-warning">STAGE</h4>
                                     <div style={{ maxWidth: 220 }}>
+                                        <div className='djjIm'><strong>Q1 2023</strong></div>
                                         <ul className="list-unstyled lh-lg fs-xs fs-md-sm">
-                                            <li><strong>Q1 2023</strong></li>
                                             <li>• 20+ blockchains integrated</li>
                                             <li>• Blithe widget</li>
                                             <li>• NFT integration</li>
@@ -50,8 +50,8 @@ const Roadmap = () => {
                                 <div className="timeline-list-item content">
                                     <h4 className="text-uppercase mb-4 mb-lg-5 ff-secondary fs-sm fs-md-lg fw-bold text-primary">STAGE</h4>
                                     <div style={{ maxWidth: 220 }}>
+                                        <div className='djjIm'><strong>Q4 2022</strong></div>
                                         <ul className="list-unstyled lh-lg fs-xs fs-md-sm">
-                                            <li><strong>Q4 2022</strong></li>
                                             <li>• Cross-chain swap/exchange</li>
                                             <li>• Listing on CEX</li>
                                             <li>• Massive marketing</li>
@@ -71,8 +71,8 @@ const Roadmap = () => {
                                 <div className="timeline-list-item content">
                                     <h4 className="text-uppercase mb-4 mb-lg-5 ff-secondary fs-sm fs-md-lg fw-bold text-primary">STAGE</h4>
                                     <div style={{ maxWidth: 220 }}>
+                                        <div className='djjIm'><strong>Q2 2023</strong></div>
                                         <ul className="list-unstyled lh-lg fs-xs fs-md-sm">
-                                            <li><strong>Q1 2023</strong></li>
                                             <li>• Lending and borrowing</li>
                                             <li>• Desktop app launch for macOS, Windows and Linux</li>
                                             <li>• MoonPay Partnership to allow crypto purchases using credit/debit card</li>
