@@ -3,11 +3,21 @@
     align-items: center;
     gap: 10px;
 }
-.navbar-brand img{
-    width: 50px;
+
+.navbar-brand img {
+    width: 35px;
 }
-.navbar-brand span{
+
+.navbar-brand span {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     color: #101828;
+}
+
+.list-unstyled ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
 }

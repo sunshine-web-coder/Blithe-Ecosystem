@@ -32,6 +32,7 @@ const Roadmap = () => {
                                             <li>• In-wallet DApp browser launch</li>
                                             <li>• Send using QR code</li>
                                             <li>• Chrome extension launch for our wallet</li>
+                                            {/* <li>• Chrome extension launch for our wallet</li> */}
                                         </ul>
                                     </div>
                                 </div>
