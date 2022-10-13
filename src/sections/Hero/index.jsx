@@ -3,13 +3,15 @@ import { Col, Container, Row } from 'react-bootstrap';
 import banner from '../../assets/hero-banner.svg';
 import appStore from './assets/app-store.svg';
 import playStore from './assets/play-store.svg';
+import downloadApk from '../../assets/andriodApk.svg';
 
 const Hero = () => {
     const data = {
         
         action: [
-            { thumb: appStore, },
-            { thumb: playStore,}
+            { thumb: playStore, },
+            { thumb: downloadApk,},
+            { thumb: appStore,}
         ]
     }
   return (
@@ -18,7 +20,7 @@ const Hero = () => {
             <Row className='gy-4 align-items-center'>
                 <Col md="7">
                     <div className="hero-content pe-lg-6 fs-sm-xl">
-                        <h1 className='fs-3xl fs-sm-4xl fs-lg-6xl fw-bold ls-xxs text-dark mb-4 mb-lg-5'>Start Building Your Solid Crypto Portfolio</h1>
+                        <h1 className='fs-3xl fs-sm-4xl fs-lg-6xl fw-bold ls-xxs text-dark mb-4 mb-lg-5'>Start Building a Solid Crypto Portfolio</h1>
                         <p>Manage and take control of your crypto assets in a non-custodial wallet.</p>
                         <ul className="list-unstyled ps-3 ps-lg-5 lh-xl mb-4 mb-lg-5">
                             <li>Over 15,000+ cryptocurrencies supported.</li>

@@ -4,73 +4,78 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/footer-logo.svg';
 import appstore from '../../assets/app-store.svg';
 import googleplay from '../../assets/google-play.svg';
+import androidApk from '../../assets/android-apk-f.svg';
 
 // Social Icons
 import socialTwitter from '../../assets/social/twitter.svg';
-import socialFacebook from '../../assets/social/facebook.svg';
-import socialLinkedin from '../../assets/social/linkedin.svg';
-import socialGithub from '../../assets/social/github.svg';
-import socialVectory from '../../assets/social/vector.svg';
-import socialBall from '../../assets/social/ball.svg';
+import socialTelegram from '../../assets/social/telegram.svg';
+import socialDiscord from '../../assets/social/discord.svg';
+import socialYoutube from '../../assets/social/youtube.svg';
+import socialInstagram from '../../assets/social/instagram.svg';
+import socialMedium from '../../assets/social/medium.svg';
 
 const Footer = () => {
     const data = {
         menu: [
             {
-                name: 'Overview',
-                url: '/overview',
+                name: 'Privacy policy',
+                url: '/privacy-policy',
             },
             {
-                name: 'Features',
-                url: '/features',
+                name: 'Terms of service',
+                url: '/terms-of-service',
             },
             {
-                name: 'Pricing',
-                url: '/pricing',
+                name: 'Documentation',
+                url: '/documentation',
             },
             {
-                name: 'Careers',
-                url: '/careers',
+                name: 'Request form',
+                url: '/request-form',
             },
             {
-                name: 'Help',
-                url: '/help',
+                name: 'Disclaimer',
+                url: '/disclaimer',
             },
             {
-                name: 'Privacy',
-                url: '/privacy',
+                name: 'Support',
+                url: '/support',
+            },
+            {
+                name: 'Audit',
+                url: '/audit',
             },
         ],
         social: [
             {
                 name: 'Twitter',
                 icon: socialTwitter,
-                url: 'https://twitter.com/',
+                url: 'https://twitter.com/BlitheWallet?t=SLPAHTN62XbHX5CWSjk8BQ&s=09',
             },
             {
-                name: 'Facebook',
-                icon: socialFacebook,
-                url: 'https://facebook.com/',
+                name: 'Telegram',
+                icon: socialTelegram,
+                url: 'https://t.me/blithewallet',
             },
             {
-                name: 'Linkedin',
-                icon: socialLinkedin,
-                url: 'https://linkedin.com/',
+                name: 'Discord',
+                icon: socialDiscord,
+                url: 'https://discord.gg/RFcu94Nu',
             },
             {
-                name: 'Github',
-                icon: socialGithub,
-                url: 'https://github.com/',
+                name: 'Youtube',
+                icon: socialYoutube,
+                url: 'https://youtube.com/channel/UCIEZNs84cnGGwv34wYJQfEw',
             },
             {
-                name: 'Vectory',
-                icon: socialVectory,
-                url: 'https://github.com/',
+                name: 'Instagram',
+                icon: socialInstagram,
+                url: 'https://www.instagram.com/blithewallet',
             },
             {
-                name: 'socialBall',
-                icon: socialBall,
-                url: 'https://twitter.com/',
+                name: 'Medium',
+                icon: socialMedium,
+                url: 'https://medium.com/@blithewallet',
             },
         ]
     }
@@ -92,9 +97,10 @@ const Footer = () => {
                     <div className="footer-widget">
                         <h5 className='text-white fw-light fs-md'>Get the app</h5>
 
-                        <div className="d-flex flex-md-column gap-3">
-                            <Link to={'/'}><img src={appstore} alt="App Store"/></Link>
-                            <Link to={'/'}><img src={googleplay} alt="Google Play Store"/></Link>
+                        <div className="d-flex ndhdnImf flex-md-column gap-3">
+                            <Link to={'/'}><img src={googleplay} alt="App Store"/></Link>
+                            <Link to={'/'}><img src={androidApk} alt="Android Apk"/></Link>
+                            <Link to={'/'}><img src={appstore} alt="Google Play Store"/></Link>
                         </div>
 
                     </div>
@@ -121,7 +127,7 @@ const Footer = () => {
                 <Col md="auto">
                     <ul className="list-inline mb-0 d-inline-flex gap-2 gap-lg-3">
                         {data.social.map((item, i) =>(
-                        <li key={i} className="list-inline-item"><Link to={item.url}><img src={item.icon}  alt={item.name}/></Link></li>
+                        <li key={i} className="list-inline-item"><a target="_blank" href={item.url}><img src={item.icon}  alt={item.name}/></a></li>
                         ))}
                     </ul>
                 </Col>}

@@ -14,10 +14,18 @@
     color: #101828;
 }
 
-.list-unstyled ul{
+.list-unstyled ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
+}
+
+.list-inline-item {
+    margin-bottom: 10px;
+}
+
+.ndhdnImf img {
+    width: 100%;
 }

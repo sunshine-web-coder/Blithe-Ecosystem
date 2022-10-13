@@ -26,8 +26,8 @@ const Header = () => {
                 slug: '#Staking',
             },
             {
-                name: "Documentationm",
-                slug: '#Documentationm',
+                name: "Documentation",
+                slug: '#Documentation',
             },
             {
                 name: "NFTs",
