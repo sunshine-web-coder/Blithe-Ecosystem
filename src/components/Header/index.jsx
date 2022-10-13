@@ -30,8 +30,9 @@ const Header = () => {
                 slug: '#Documentation',
             },
             {
-                name: "NFTs",
-                slug: '#NFTs',
+                name: "Referral",
+                span: "Soon",
+                slug: '#Referral',
             },
             {
                 name: "DApp Browser",
@@ -54,12 +55,12 @@ const Header = () => {
                 {data && data.navmenu &&
                 <Nav className="me-auto">
                     {data.navmenu.map((item, i) =>(
-                        <Nav.Link key={i} href={item.slug}>{item.name}</Nav.Link>
+                        <Nav.Link key={i} href={item.slug}>{item.name} <span className="MbnNJ">{item.span}</span></Nav.Link>
                     ))}
                 </Nav>
                 }
             <Nav>
-                <Nav.Link className='p-0 d-block' href="/"><span className='btn btn-primary'>Join Us</span></Nav.Link>
+                <Nav.Link className='p-0 d-block' target="_blank" href="https://t.me/blithewallet"><span className='btn btn-primary'>Join Us</span></Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>
@@ -70,7 +71,7 @@ const Header = () => {
                 {data && data.navmenu &&
                 <ul className="list-unstyled">
                     {data.navmenu.map((item, i) =>(
-                        <Nav.Link key={i} href={item.slug}>{item.name}</Nav.Link>
+                        <Nav.Link key={i} href={item.slug}>{item.name} <span className="MbnNJ">{item.span}</span></Nav.Link>
                     ))}
                     <span className='btn w-100 btn-primary'>Join Us</span>
                 </ul>

@@ -32,7 +32,6 @@ const Hero = () => {
               </ul>
 
               <div className="jHUNTFTY">
-                <p>Coming soon</p>
                 {data && data.action && (
                   <ul className="list-inline">
                     {data.action.map((item, i) => (
