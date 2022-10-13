@@ -22,8 +22,10 @@
     text-align: left;
 }
 
-.list-unstyled ul.firNhnm {
-    padding-left: 25px;
+.list-unstyled ul li {
+    display: flex;
+    /* align-items: center; */
+    gap: 0.5em;
 }
 
 .list-inline li {
@@ -41,4 +43,15 @@
 
 .djjIm {
     width: 100%;
+}
+
+.ndhGH{
+    border: 1px solid red;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .list-unstyled ul.firNhnm {
+        padding-left: 25px;
+    }
 }
