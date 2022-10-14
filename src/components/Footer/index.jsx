@@ -96,18 +96,19 @@ const Footer = () => {
           </Col>
           <Col md="auto">
             <div className="footer-widget">
-              <h5 className="text-white fnjHN fw-light fs-md">
-                Get the app <span>Coming soon</span>
-              </h5>
+              <h5 className="text-white fnjHN fw-light fs-md">Get the app</h5>
 
               <div className="d-flex ndhdnImf flex-md-column gap-3">
-                <div>
+                <div className="nJNDPsp NNhgh">
+                  <span>Coming soon</span>
                   <img src={googleplay} alt="App Store" />
                 </div>
-                <div>
+                <div className="nJNDPsp NNhgh">
+                  <span>Coming soon</span>
                   <img src={androidApk} alt="Android Apk" />
                 </div>
-                <div>
+                <div className="nJNDPsp nJNDPsp2">
+                  <span>Coming soon</span>
                   <img src={appstore} alt="Google Play Store" />
                 </div>
               </div>

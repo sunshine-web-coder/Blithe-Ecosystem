@@ -49,8 +49,15 @@
     margin-bottom: 10px;
 }
 
-.ndhdnImf {
-    justify-content: space-between;
+.ndhdnImf .nJNDPsp {
+    text-align: right;
+    color: red;
+    font-weight: bold;
+    /* margin-left: 20px; */
+}
+
+.ndhdnImf .nJNDPsp.NNhgh span:nth-child(1) {
+    visibility: hidden;
 }
 
 .ndhdnImf img {
@@ -62,12 +69,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.fnjHN span {
-    color: red;
-    font-weight: bold;
-    margin-left: 20px;
 }
 
 .MbnNJ {
@@ -89,7 +90,19 @@
     }
 }
 
-.requestForm{
+@media screen and (max-width: 767px) {
+    .ndhdnImf .nJNDPsp {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 351px) {
+    .nJNDPsp2, .NNhgh {
+        font-size: 12px;
+    }
+}
+
+.requestForm {
     max-width: 1100px;
     margin: auto;
     margin-top: 75px;
