@@ -6,9 +6,12 @@ import downloadApk from "../../assets/svgg/andriodApk.svg";
 import appStore from "../../assets/svgg/AppStore.svg";
 
 const Hero = () => {
-  const data = {
-    action: [{ thumb: playStore }, { thumb: downloadApk }, { thumb: appStore }],
-  };
+  // const data = {
+  //   action: [
+  //     { thumb: playStore }, 
+  //     { thumb: downloadApk,
+  //     }, { thumb: appStore }],
+  // };
   return (
     <section className="hero-area py-5 py-lg-7 mt-6">
       <Container>
@@ -32,15 +35,30 @@ const Hero = () => {
               </ul>
 
               <div className="jHUNTFTY">
-                {data && data.action && (
+                {/* {data && data.action && (
                   <ul className="list-inline">
                     {data.action.map((item, i) => (
                       <li key={i} className="list-inline-item">
-                        <img src={item.thumb} alt="Apple " />
+                        <a href="./assets/BlitheWallet.apk">
+                          <img src={item.thumb} alt="Apple " />
+                        </a>
                       </li>
                     ))}
                   </ul>
-                )}
+                )} */}
+                <ul className="list-inline">
+                      <li className="list-inline-item">
+                          <img src={playStore} alt="playStore " />
+                      </li>
+                      <li className="list-inline-item">
+                        <a download href="../../../public/BlitheWallet.apk">
+                          <img src={downloadApk} alt="downloadApk " />
+                        </a>
+                      </li>
+                      <li className="list-inline-item">
+                          <img src={appStore} alt="appStore " />
+                      </li>
+                  </ul>
               </div>
             </div>
           </Col>
