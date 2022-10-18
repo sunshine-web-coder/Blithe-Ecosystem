@@ -48,10 +48,12 @@ const Hero = () => {
                 )} */}
                 <ul className="list-inline">
                       <li className="list-inline-item">
-                          <img src={playStore} alt="playStore " />
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.blithe.wallet.blithewallet">
+                            <img src={playStore} alt="playStore " />
+                        </a>
                       </li>
                       <li className="list-inline-item">
-                        <a download href="../../../public/BlitheWallet.apk">
+                        <a download href="../../../../BlitheWallet.apk">
                           <img src={downloadApk} alt="downloadApk " />
                         </a>
                       </li>

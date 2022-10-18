@@ -101,11 +101,15 @@ const Footer = () => {
               <div className="d-flex ndhdnImf flex-md-column gap-3">
                 <div className="nJNDPsp NNhgh">
                   <span>Coming soon</span>
-                  <img src={googleplay} alt="App Store" />
+                  <a target="_blank" href="https://play.google.com/store/apps/details?id=com.blithe.wallet.blithewallet">
+                      <img src={googleplay} alt="playStore " />
+                  </a>
                 </div>
                 <div className="nJNDPsp NNhgh">
                   <span>Coming soon</span>
-                  <img src={androidApk} alt="Android Apk" />
+                  <a download href="../../../../BlitheWallet.apk">
+                    <img src={androidApk} alt="downloadApk " />
+                  </a>
                 </div>
                 <div className="nJNDPsp nJNDPsp2">
                   <span>Coming soon</span>

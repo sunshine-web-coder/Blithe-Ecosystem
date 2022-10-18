@@ -259,6 +259,7 @@ const PrivacyPolicy = () => {
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </PrimaryLayout>
