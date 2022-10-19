@@ -43,7 +43,7 @@ const Footer = () => {
       },
       {
         name: "Audit",
-        path: "/audit",
+        path: "https://github.com/interfinetwork/smart-contract-audits/blob/audit-updates/Blithe_AuditReport_InterFi.pdf",
       },
     ],
     social: [
